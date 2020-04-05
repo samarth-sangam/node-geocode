@@ -2,6 +2,8 @@ const path = require('path');
 const express = require('express')
 const hbs = require('hbs')
 const geocode = require('./utils/geocode')
+const dotenv = require('dotenv')
+dotenv.config()
 
 const app = express()
 const port = process.env.PORT
