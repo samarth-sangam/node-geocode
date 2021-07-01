@@ -55,8 +55,8 @@ ssh-add ~/.ssh/id_rsa
 
 Create heroku application
 ```
-heruko create <app-name>
-heruko config:set MAPBOX_KEY=<Mapbox api key>
+heroku create <app-name>
+heroku config:set MAPBOX_KEY=<Mapbox api key>
 ```
 
 Add files to git
